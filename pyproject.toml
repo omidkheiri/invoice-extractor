@@ -1,0 +1,21 @@
+[project]
+name = "invoice-extractor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "omidkheiri", email = "omidkheiri@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "instructor>=1.17.0",
+    "openai>=3.3.0",
+    "pillow>=13.0.0",
+    "pydantic>=2.14.3",
+    "pydantic-settings>=2.16.3",
+    "pymupdf>=2.1",
+]
+
+[project.scripts]
+invoice-extractor = "invoice_extractor:main"
+

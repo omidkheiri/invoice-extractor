@@ -1,0 +1,37 @@
+{
+    "invoice_number": "INV-2026-0842",
+    "issue_date": "2026-11-18",
+    "due_date": "2026-12-18",
+    "currency": "USD",
+    "sender": {
+        "name": "TechNova Solutions Inc.",
+        "address": "1200 Market Street, Suite 400\nSan Francisco, CA 94102",
+        "email": "billing@technova.example.com"
+    },
+    "recipient": {
+        "name": "Omid Kheiri",
+        "address": "450 Innovation Way, Tech Park\nAustin, TX 78701",
+        "email": "omid@example.com"
+    },
+    "items": [
+        {
+            "description": "Cloud Server Hosting (Pro Plan)",
+            "quantity": 2,
+            "unit_price": "150",
+            "total_price": "300"
+        },
+        {
+            "description": "AI API Integration Consulting",
+            "quantity": 5,
+            "unit_price": "120",
+            "total_price": "600"
+        },
+        {
+            "description": "SSL Certificate Renewal",
+            "quantity": 1,
+            "unit_price": "50",
+            "total_price": "50"
+        }
+    ],
+    "total_amount": "950"
+}
